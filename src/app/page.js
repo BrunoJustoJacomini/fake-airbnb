@@ -1,14 +1,10 @@
-import Toolbar from "@/componets/Toolbar";
-import Topbar from "@/componets/Topbar";
+import Topbar from "@/components/Topbar/Topbar";
 
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col">
       <Topbar></Topbar>
-      <Toolbar></Toolbar>
-
-
     </main>
   );
 }
